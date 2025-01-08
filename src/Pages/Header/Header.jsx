@@ -4,7 +4,7 @@ import { useState } from 'react'
 import './header.css'
 
 //Importing icons and images for use
-import logo from '../../Assets/UI ASS icons/Paystack Logo.svg'
+import logo from '../../Assets/UI ASS icons/Logo.svg'
 
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { TbGridDots } from 'react-icons/tb';
