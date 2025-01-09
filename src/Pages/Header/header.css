@@ -4,13 +4,12 @@
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
   width: 100%;
   padding: 1rem;
   z-index: 1000;
 }
 .navBarSection .header .logoDiv {
-  margin-left: 3.5rem;
+  margin-left: 1rem;
   color: white;
   font-weight: 500;
   cursor: pointer;
@@ -56,14 +55,14 @@
   .navBarSection .header .navBar .navLists .navItem .navLink:hover {
     color: rgb(3, 89, 3);
   }
-  .navBarSection .header .navBar .navLists .headerBtns {
+  .navBarSection .header .navBar .headerBtns {
     flex-direction: column;
   }
-  .navBarSection .header .navBar .navLists .headerBtns .btn {
+  .navBarSection .header .navBar .headerBtns .btn {
     background-color: rgb(153, 182, 110);
     margin-top: 1rem;
   }
-  .navBarSection .header .navBar .navLists .headerBtns .btn:hover {
+  .navBarSection .header .navBar .headerBtns .btn:hover {
     background-color: white;
   }
   .navBarSection .header .navBar .closeNavbar {

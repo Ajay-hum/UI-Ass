@@ -1,9 +1,56 @@
-.home{
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    position: relative;
-    // background-color: brown;
+.homeSection{
+    // background-color: blue;
+    // height: 100vh;
+
+    .layout{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3rem 7rem;
+        position: absolute;
+        z-index: 50;
+        // background-color: brown;
+
+        .content{
+            max-width: 60%;
+    
+            .textDiv{
+                h1{
+                    font-size: 48px;
+    
+                    span{
+                        color: rgb(90, 137, 20);
+                    }
+                }
+                .p1{
+                    font-size: 16px;
+                    margin-top: 15px;
+                }
+                p{
+                    margin-bottom: 15px;
+                }
+            }
+    
+            .bar-icons{
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    
+        .imageContainer {
+            display: flex;
+            // background-color: red;
+            flex-direction: column;
+            max-width: 100%;
+            overflow: hidden;
+        
+            .hero-image {
+              width: 100%; // Adjust as needed
+              height: auto;
+              margin-bottom: 1px;
+              border-radius: 8px;
+            }
+        }
+    }
 }

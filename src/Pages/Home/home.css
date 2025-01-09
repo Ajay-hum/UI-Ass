@@ -1,8 +1,41 @@
-.home {
-  height: 70vh;
+.homeSection .layout {
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: auto;
-  position: relative;
+  justify-content: space-between;
+  margin: 3rem 7rem;
+  position: absolute;
+  z-index: 50;
+}
+.homeSection .layout .content {
+  max-width: 60%;
+}
+.homeSection .layout .content .textDiv h1 {
+  font-size: 48px;
+}
+.homeSection .layout .content .textDiv h1 span {
+  color: rgb(90, 137, 20);
+}
+.homeSection .layout .content .textDiv .p1 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.homeSection .layout .content .textDiv p {
+  margin-bottom: 15px;
+}
+.homeSection .layout .content .bar-icons {
+  display: flex;
+  gap: 1rem;
+}
+.homeSection .layout .imageContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  overflow: hidden;
+}
+.homeSection .layout .imageContainer .hero-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1px;
+  border-radius: 8px;
 }/*# sourceMappingURL=home.css.map */

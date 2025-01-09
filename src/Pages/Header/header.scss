@@ -6,13 +6,13 @@
         align-items: center;
         justify-content: space-between;
         background: transparent;
-        box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
+        // box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
         width: 100%;
         padding: 1rem;
         z-index: 1000;
 
         .logoDiv{
-            margin-left: 3.5rem;
+            margin-left: 1rem;
             color: white;
             font-weight: 500;
             cursor: pointer;
@@ -61,16 +61,17 @@
                             }
                         }
                     }
+                }
 
-                    .headerBtns{
-                        flex-direction: column;
-                        .btn{
-                            background-color: rgb(153, 182, 110);
-                            margin-top: 1rem;//On the wide screen it should also be 1rem
+                .headerBtns{
+                    flex-direction: column;
+                    // justify-content: space-between;
+                    .btn{
+                        background-color: rgb(153, 182, 110);
+                        margin-top: 1rem;//On the wide screen it should also be 1rem
 
-                            &:hover{
-                                background-color: white;
-                            }
+                        &:hover{
+                            background-color: white;
                         }
                     }
                 }
